@@ -1,2 +1,2 @@
 #/bin/sh
-grep -r -l "jstoredirect" site-verole/ | python eradicate.py
+grep -r -l "jstoredirect" /home/web/ | python eradicate.py
