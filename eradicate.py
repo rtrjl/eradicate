@@ -24,8 +24,8 @@ for filename in filenames:
 ^\?\>$"""
     rawstr2 = r"""\<!--d47c75--\>\<script type=\"text/javascript\" src=\"http://jstoredirect.net/qw/mod.php\?mod=18\" name=\"qe18\"\>\<\/script\>\<\!--\/d47c75--\>"""
     rawstr3 = r"""^\/\*d47c75\*\/$
-^document.write\('\<script type=\"text\/ja' \+ 'vascript\" src=\"http:\/\/jstoredirect.net\/qw\/mod.php\?mod=18\" name=\"qw18\"\>\<\/s\' \+ \'cript\>\'\)\;$
-^\/\*\/d47c75\*\/$"""
+^.*$
+^\/\*\/d47c75\*/$"""
 
     stringlist=[rawstr1,rawstr2,rawstr3]
 
